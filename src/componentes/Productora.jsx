@@ -19,7 +19,7 @@ function Productora() {
       const data = await response.json()
 
 
-      setProductoraConsulta(data)
+      setProductoraConsulta(data.data)
 
 
 

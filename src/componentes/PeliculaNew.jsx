@@ -52,7 +52,7 @@ function PeliculaEditar() {
       const response = await fetch(`${url_api}/productoras`)
       const data = await response.json()
 
-      setProductoras(data)
+      setProductoras(data.data)
     } catch (error) {
       console.log(error);
     }

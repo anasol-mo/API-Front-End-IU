@@ -1,4 +1,3 @@
-
 import { Link ,useParams} from 'react-router-dom';
 import './PeliculaDetalles.css'
 // import peliculas from '../../public/peliculas.json'
