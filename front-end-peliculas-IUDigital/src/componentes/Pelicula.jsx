@@ -3,10 +3,11 @@ import { Link } from 'react-router-dom';
 import './Pelicula.css'
 // import peliculas from '../../public/peliculas.json'
 import { useEffect, useState } from 'react';
+import api from '../api/api';
 
 
 function Pelicula() {
-  const url_api = 'http://localhost:5000/api'
+  const url_api = 'https://api-peliculas-jcrs.onrender.com/api'
 
   const [peliculasC, setPeliculas] = useState([])
 

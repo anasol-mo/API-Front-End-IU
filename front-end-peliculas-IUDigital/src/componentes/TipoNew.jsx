@@ -6,7 +6,7 @@ import { useForm } from "react-hook-form"
 
 
 function TipoNew() {
-  const url_api = 'http://localhost:5000/api'
+  const url_api = 'https://api-peliculas-jcrs.onrender.com/api'
   
   const navigate = useNavigate();
   const { register, handleSubmit} = useForm()  

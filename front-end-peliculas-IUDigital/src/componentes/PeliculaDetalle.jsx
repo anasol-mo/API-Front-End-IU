@@ -7,7 +7,7 @@ import { useEffect, useState } from 'react';
 
 function PeliculaDetalle() {
 
-  const url_api = 'http://localhost:5000/api'
+  const url_api = 'https://api-peliculas-jcrs.onrender.com/api'
 
   const { id } = useParams(); 
 

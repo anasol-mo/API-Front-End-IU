@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 
 
 function GeneroNew() { 
-  const url_api = 'http://localhost:5000/api'
+  const url_api = 'https://api-peliculas-jcrs.onrender.com/api'
 
   const { register, handleSubmit} = useForm()
   const navigate = useNavigate()

@@ -8,7 +8,7 @@ import { useForm } from "react-hook-form"
 
 
 function ProductoraEdit() {
-  const url_api = 'http://localhost:5000/api'
+  const url_api = 'https://api-peliculas-jcrs.onrender.com/api'
 
   const { register, handleSubmit, setValue } = useForm()
   const navigate = useNavigate();
